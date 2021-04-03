@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Metro 4 -->
+        <link rel="stylesheet" href="css/metro-all.css">
+        <link rel="stylesheet" href="mif/metro.woff">
+    </head>
+<body class="bg-lightGrayBlue" style="height: auto; width: auto;">
+<aside class="sidebar pos-absolute z-2 bg-lightGrayBlue"
+       data-role="sidebar"
+       data-toggle="#sidebar-toggle-4"
+       id="sb4"
+       data-shift=".shifted-content-2"
+       data-static-shift=".shifted-content-2"
+       data-static="md" 
+       >
+    <div class="sidebar-header" data-image="images/asli1.png" >
+    </div>
+   <ul class="sidebar-menu">
+        <li><a href="home.html" data-url="home.html"><span class="mif-home icon"></span>HOME</a></li>
+        
+        <li><a><span class="mif-books icon"></span>Perbendaharaan</a>
+            <ul class="d-menu bg-gray fg-black" data-role="dropdown">
+                <li><a href="jaminan.php" data-url="jaminan.php" id="abs">Jaminan</a></li>
+                <li><a href="pengembalian.php" data-url="pengembalian.php">Pengembalian</a></li>
+                <li><a href="brgpindahan.php" data-url="brgpindahan.php">Barang Pindahan</a></li>
+                <li><a href="keberatan.php" data-url="keberatan.php">Keberatan</a></li>
+            </ul>
+        </li>
+
+       
+        <li><a href="kontak.html" data-url="kontak.html"><span class="mif-contacts-dialer icon"></span>Contact Us</a></li>
+        <li class="divider"></li>
+        <li><a href="logout.php" data-url="logout.php"><span class="mif-exit icon"></span>Keluar</a></li>
+    </ul>
+</aside>
+<div class="shifted-content-2">
+        <h2 class="text-light" style="text-align: center;"><b>Kontak Pegawai Perbendaharaan</b></h2>
+<div class="grid bg-white">
+    <div class="row" style="margin-top: 30px; margin-bottom: 320px;">
+     
+        <div class="cell-3" style="margin-left: 75px; margin-right: 50px">
+            <div data-role="panel">
+            <div class="bg-darkGreen fg-white p-2" style="text-align: center;"><b>EDIKA</b></div>
+            <span class="mif-contacts-dialer mif-lg"> 0857-6510-0551</span>
+            </div>
+        </div>
+
+        <div class="cell-3" style="margin-right: 50px; margin-top: 150px; margin-bottom: -180px">
+            <div data-role="panel">
+            <div class="bg-darkGreen fg-white p-2" style="text-align: center;"><b>IMAM</b></div>
+            <span class="mif-contacts-dialer mif-lg"> 0853-7046-6996</span>
+            </div>
+        </div>
+
+        <div class="cell-3">
+            <div data-role="panel">
+            <div class="bg-darkGreen fg-white p-2" style="text-align: center;"><b>FREDY</b></div>
+            <span class="mif-contacts-dialer mif-lg"> 0852-7579-6446</span>
+            </div>
+    </div>
+</div>
+
+
+<div class="bg-midnightBlue fg-Teal" style="margin-top: -10px;">
+    <p style="margin-top: 100px; padding-top: 100px; padding-bottom: 30px;">@Copyright 2020 | Beacukai Belawan </p>
+</div>
+</div>
+
+
+
+    <!-- jQuery first, then Metro UI JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/metro.js"></script>
+    <!-- <script>
+        $('ul.d-menu a').click(function(){
+            var tujuan = $(this).data('url');
+            $.ajax({
+                url:tujuan,
+                dataType:'html',
+                success:function(data){
+                    $('#isi').html(data);
+                }
+            })
+            return false;
+        })
+        $('#produk').click(function(){
+            $.ajax({
+                url:'index.html',
+                dataType:'html',
+                success:function(data){
+                    $('#isi').html(data);
+                }
+            })
+            return false;
+        })
+    </script> -->
+  </body>
+</html>

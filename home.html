@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Metro 4 -->
+        <link rel="stylesheet" href="css/metro-all.css">
+        <link rel="stylesheet" href="mif/metro.woff">
+    </head>
+<body class="bg-lightGrayBlue" style="height: auto; width: auto;">
+<aside class="sidebar pos-absolute z-2 bg-lightGrayBlue"
+       data-role="sidebar"
+       data-toggle="#sidebar-toggle-4"
+       id="sb4"
+       data-shift=".shifted-content-2"
+       data-static-shift=".shifted-content-2"
+       data-static="md" 
+       >
+    <div class="sidebar-header" data-image="images/asli1.png" height= "auto" data-url="index.html">
+    </div>
+    <ul class="sidebar-menu">
+        <li><a href="home.html" data-url="home.html"><span class="mif-home icon"></span>HOME</a></li>
+        
+        <li><a><span class="mif-books icon"></span>Perbendaharaan</a>
+            <ul class="d-menu bg-gray fg-black" data-role="dropdown">
+                <li><a href="jaminan.php" data-url="jaminan.php" id="abs">Jaminan</a></li>
+                <li><a href="pengembalian.php" data-url="pengembalian.php">Pengembalian</a></li>
+                <li><a href="brgpindahan.php" data-url="brgpindahan.php">Barang Pindahan</a></li>
+                <li><a href="keberatan.php" data-url="keberatan.php">Keberatan</a></li>
+            </ul>
+        </li>
+
+       
+        <li><a href="kontak.html" data-url="kontak.html"><span class="mif-contacts-dialer icon"></span>Contact Us</a></li>
+        <li class="divider"></li>
+        <li><a href="logout.php" data-url="logout.php"><span class="mif-exit icon"></span>Keluar</a></li>
+        
+        <!--<li><a href= "http:/bcbelawan.com/"><img style= "margin-left: -60px; margin-top: -15px; width: auto; height: auto;"src="assets/img/1.png"></a></li>
+        <li><a href= "https://kwbcsumut.beacukai.go.id"><img style= "margin-left: -60px" src="assets/img/kanwil.jpg"></a></li>
+        <li><a href= "https://www.beacukai.go.id/"><img style= "margin-left: -60px; margin-top: -15px; width: auto; height: auto;"src="assets/img/2.jpeg"></a></li>-->
+    </ul>
+
+</aside>
+<div class="shifted-content-2">
+<div data-role="carousel"
+     data-height = "400"
+     data-auto-start="true"
+     data-cls-controls="fg-white"
+     data-effect-func="easeInQuart"
+     data-control-next="<span class='mif-chevron-right fg-cyan'></span>"
+     data-control-prev="<span class='mif-chevron-left fg-cyan'></span>"
+     data-period="3000"
+     >
+    <div class="slide" data-cover="assets/img/1.jpeg"></div>
+    <div class="slide" data-cover="assets/img/3.jpeg"></div>
+    <div class="slide" data-cover="assets/img/4.jpeg"></div>
+</div>
+
+<div class="border bg-darkBlue fg-white" style="text-align: left;">
+    
+<blockquote class="left-side" style="margin-top: 50px;">
+    <marquee style="font-size: 50px;"title="SIBELA MENYAPA ANDA" behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()" direction="right"><a target="_blank">SIBELA MENYAPA ANDA</a></marquee>
+
+<img height="auto" src="images/bc.png" style="float: left; margin: 0px 9px 3px 0px;" width="150" />
+
+<p> Ijin Ndan, Si Bela terinspirasi dari perkembangan menuju Industri 4.0 dimana semua informasi ada di genggaman Pengguna Jasa. Kami berusaha memberikan pelayanan terbaik, di manapun Pengguna Jasa  berada dapat memantau perkembangan proses kepabeanan dan cukai yang  diajukan ke KPPBC TMP Belawan.
+                
+<P> Harapan saya Komandan dapat menugaskan 2 staf dari Seksi Manifes, Pabean, Umum, Perbend untuk belajar selama 3 jam sehari sehingga core product dapat dibuat di masing-masing menu. Contoh menu diperben nantinya Pengguna Jasa dapat mengetahui status, terbit pengajuan jaminan, konfirmasi BC, konfirmasi Penjamin, terbit BPJ sehingga Pengguna Jasa dapat segera meng submit PIB. Contoh menu lain di perbend adalah penolakan keberatan yang lewat waktu atau tidak lengkap secara sistem.
+                
+<p> demikian di sampaikan, untuk mendapat keputusan lebih lanjut.
+
+    
+</blockquote>
+    <br><br>
+    <div class="img-container">
+    
+    <h6 class="fg-lightMagenta"><div id="content"
+                
+                
+            /div>
+        </div></h6>
+    </div>
+</div>
+
+<div class="border bg-darkBlue fg-Teal" style="margin-top: -10px;">
+    <p style="margin-top: 10px; padding-top: 10px; padding-bottom: 20px;">@Copyright 2020</p>
+</div>
+</div>
+
+
+
+    <!-- jQuery first, then Metro UI JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/metro.js"></script>
+    <!-- <script>
+        $('ul.d-menu a').click(function(){
+            var tujuan = $(this).data('url');
+            $.ajax({
+                url:tujuan,
+                dataType:'html',
+                success:function(data){
+                    $('#isi').html(data);
+                }
+            })
+            return false;
+        })
+        $('#produk').click(function(){
+            $.ajax({
+                url:'index.html',
+                dataType:'html',
+                success:function(data){
+                    $('#isi').html(data);
+                }
+            })
+            return false;
+        })
+    </script> -->
+  </body>
+</html>
